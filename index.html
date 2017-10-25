@@ -50,7 +50,9 @@
 </head>	
 
 <body>
-	<script type="assets/javascript/game.js"></script>
+	<script type="assets/javascript/game.js">
+		
+	</script>
 
 	<div class="container">
 		<!-- Title row -->
@@ -83,10 +85,15 @@
     		
 
 			<div class="col-md-6" id="gameplay">
-				<h4>Press any key to get started!</h4>
-				<h5>Wins: </h5>
-				<h5>Guesses remaining: </h5>
-				<h5>Letters guessed: </h5> 
+				<h2>Press any key to play!</h2>
+				<h3>WINS</h3>
+				<p id="wins"></p>
+				<h3>CURRENT WORD</h3>
+				<div id="slots"></div>
+				<h3>GUESSES LEFT</h3>
+				<p id="guessesLeft"></p>
+				<h3>LETTERS ALREADY GUESSED</h3>
+				<div id="wrongArray"></div>
 			</div>	
 		</div>	
 
