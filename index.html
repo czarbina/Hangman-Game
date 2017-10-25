@@ -15,10 +15,31 @@
 	 		border-width: 2px;
 	 	}
 
+	 	.col-md-12 {
+	 		margin-bottom: 10px;
+
+	 	}
+
+	 	.gameplayRow {
+	 		width: auto;
+	 		margin:auto;
+	 	}
+
 	 	.col-md-6 {
 	 		height: auto;
+	 		margin: auto;
 
-		}
+	 	}
+
+	 	#thumbnail {
+			width: 550px;
+			margin-right: 10px;
+	 	}
+
+	 	#gameplay {
+			width:550px;
+			margin-left: 10px;
+	 	}
 
 	 	.center-block {
 	 		display: block; 
@@ -41,8 +62,8 @@
 		</div>
 
 		<!-- Gameplay row -->
-		<div class ="row">
-			<div class="col-md-6">
+		<div class ="row gameplayRow">
+			<div class="col-md-6" id="thumbnail">
 				<div class="thumbnail">
       				<img src="assets/images/initial_gif.gif" class ="img-responsive center-block" alt="Responsive image">
       				<div class="caption">
@@ -59,7 +80,9 @@
     			</div>
     		</div>	
 
-			<div class="col-md-6">
+    		
+
+			<div class="col-md-6" id="gameplay">
 				<h4>Press any key to get started!</h4>
 				<h5>Wins: </h5>
 				<h5>Guesses remaining: </h5>
