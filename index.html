@@ -83,33 +83,17 @@
 
 			<div class="col-md-6" id="gameplay">
 				<h2>Press any key to play!</h2>
-				<h3>WINS</h3>
-				<p id="wins"></p>
-				<h3>CURRENT WORD</h3>
-				<div id="slots"></div>
-				<h3>GUESSES LEFT</h3>
-				<p id="guessesLeft"></p>
-				<h3>LETTERS ALREADY GUESSED</h3>
-				<div id="wrongArray"></div>
+				<h3>WINS: <span id="wins"></span></h3>
+				<h3>LOSSES: <span id="losses"></span></h3>
+				<h3>CURRENT WORD: <span id="display"></span></h3>
+				<h3>GUESSES LEFT: <span id="guesses-left"></span></h3>
+				<h3>ALREADY GUESSED: <span id="wrong-guesses"></span></h3>
 			</div>	
-		</div>	
 
 
 	</div>
 
-<script type="text/javascript">
-	// Create object with word properties per word and answers as strings in an array
-	var words = {
-		w1: ["c","u","t","t","l","e","f","i","s","h"],
-		w2: ["n","a","r","w","h","a","l"],
-		w3: ["m","a","n","a","t","e","e"],
-		w4: ["p","l","a","t","y","p","u","s"]
-	};
-
-	var wins = 0;
-	var guessesLeft = 15;
-	var alreadyGuessed = [];
-</script>		
+<script src="assets/javascript/game.js"></script>		
 
 </body>
 </html>
